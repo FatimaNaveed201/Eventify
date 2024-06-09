@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ticket image dimensions -->
+    <dimen name="ticket_image_width">336dp</dimen>
+    <dimen name="ticket_image_height">544dp</dimen>
+    <dimen name="ticket_image_margin_horizontal">20dp</dimen>
+    <dimen name="ticket_image_margin_vertical">20dp</dimen>
+</resources>

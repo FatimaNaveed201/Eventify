@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Eventify"
+        tools:ignore="UnusedAttribute"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".UserInfoPopup"
+            android:exported="false" />
+        <activity
+            android:name=".admin_main"
+            android:exported="false" />
+        <activity
+            android:name=".UserCulturalEvents"
+            android:exported="false" />
+        <activity
+            android:name=".UserWorkshopsEvents"
+            android:exported="false" />
+        <activity
+            android:name=".UserFoodEvents"
+            android:exported="false" />
+        <activity
+            android:name=".UserSeminarsEvents"
+            android:exported="false" />
+        <activity
+            android:name=".UserSportsEvents"
+            android:exported="false" />
+        <activity
+            android:name=".UserTheatreEvents"
+            android:exported="false" />
+        <activity
+            android:name=".UserArtEvents"
+            android:exported="false" />
+        <activity
+            android:name=".UserSelectedEvent"
+            android:exported="false" />
+        <activity
+            android:name=".BookedTicket"
+            android:exported="false" />
+        <activity
+            android:name=".GeneratingTicket"
+            android:exported="false" />
+        <activity
+            android:name=".UserBookings"
+            android:exported="false" />
+        <activity
+            android:name=".UserSelectedMusic"
+            android:exported="false" />
+        <activity
+            android:name=".UserMusicEvents"
+            android:exported="false" />
+        <activity
+            android:name=".user_main"
+            android:exported="false" />
+        <activity
+            android:name=".pfp_popup"
+            android:exported="false" />
+        <activity
+            android:name=".admin_credentials"
+            android:exported="false" />
+        <activity
+            android:name=".user_credentials"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

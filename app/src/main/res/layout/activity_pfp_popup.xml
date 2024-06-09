@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pfp_popup2"
+    tools:context=".pfp_popup">
+
+
+    <ScrollView
+        android:layout_width="348dp"
+        android:layout_height="376dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755">
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:columnCount="4"
+            android:padding="10dp"
+            android:rowCount="8"
+            app:layout_constraintBottom_toTopOf="@id/selectButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/selectedpfp">
+
+            <ImageButton
+                android:id="@+id/pfp1"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp1"
+                android:tag="pfp1" />
+
+            <ImageButton
+                android:id="@+id/pfp2"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp2"
+                android:tag="pfp2" />
+
+            <ImageButton
+                android:id="@+id/pfp3"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp3"
+                android:tag="pfp3" />
+
+            <ImageButton
+                android:id="@+id/pfp4"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp4"
+                android:tag="pfp4" />
+
+            <ImageButton
+                android:id="@+id/pfp5"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp5"
+                android:tag="pfp5" />
+
+            <ImageButton
+                android:id="@+id/pfp6"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp6"
+                android:tag="pfp6" />
+
+            <ImageButton
+                android:id="@+id/pfp7"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp7"
+                android:tag="pfp7" />
+
+            <ImageButton
+                android:id="@+id/pfp8"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp8"
+                android:tag="pfp8" />
+
+            <ImageButton
+                android:id="@+id/pfp9"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp9"
+                android:tag="pfp9" />
+
+            <ImageButton
+                android:id="@+id/pfp10"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp10"
+                android:tag="pfp10" />
+
+            <ImageButton
+                android:id="@+id/pfp11"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp11"
+                android:tag="pfp11" />
+
+            <ImageButton
+                android:id="@+id/pfp12"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp12"
+                android:tag="pfp12" />
+
+            <ImageButton
+                android:id="@+id/pfp13"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp13"
+                android:tag="pfp13" />
+
+            <ImageButton
+                android:id="@+id/pfp14"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp14"
+                android:tag="pfp14" />
+
+            <ImageButton
+                android:id="@+id/pfp15"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp15"
+                android:tag="pfp15" />
+
+            <ImageButton
+                android:id="@+id/pfp16"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp16"
+                android:tag="pfp16" />
+
+            <ImageButton
+                android:id="@+id/pfp17"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp17"
+                android:tag="pfp17" />
+
+            <ImageButton
+                android:id="@+id/pfp18"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp18"
+                android:tag="pfp18" />
+
+            <ImageButton
+                android:id="@+id/pfp19"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp19"
+                android:tag="pfp19" />
+
+            <ImageButton
+                android:id="@+id/pfp20"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp20"
+                android:tag="pfp20" />
+
+            <ImageButton
+                android:id="@+id/pfp21"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp21"
+                android:tag="pfp21" />
+
+            <ImageButton
+                android:id="@+id/pfp22"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp22"
+                android:tag="pfp22" />
+
+            <ImageButton
+                android:id="@+id/pfp23"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp23"
+                android:tag="pfp23" />
+
+            <ImageButton
+                android:id="@+id/pfp24"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp24"
+                android:tag="pfp24" />
+
+            <ImageButton
+                android:id="@+id/pfp25"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp25"
+                android:tag="pfp25" />
+
+            <ImageButton
+                android:id="@+id/pfp26"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp26"
+                android:tag="pfp26" />
+
+            <ImageButton
+                android:id="@+id/pfp27"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp27"
+                android:tag="pfp27" />
+
+            <ImageButton
+                android:id="@+id/pfp28"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp28"
+                android:tag="pfp28" />
+
+            <ImageButton
+                android:id="@+id/pfp29"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp29"
+                android:tag="pfp29" />
+
+            <ImageButton
+                android:id="@+id/pfp30"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp30"
+                android:tag="pfp30" />
+
+            <ImageButton
+                android:id="@+id/pfp31"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp31"
+                android:tag="pfp31" />
+
+            <ImageButton
+                android:id="@+id/pfp32"
+                android:layout_width="80dp"
+                android:layout_height="95dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pfp32"
+                android:tag="pfp32" />
+
+        </GridLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/selectedpfp"
+        android:layout_width="156dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158"
+        app:srcCompat="@drawable/addpfp" />
+
+    <ImageButton
+        android:id="@+id/selectButton"
+        android:layout_width="166dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.960"
+        app:srcCompat="@drawable/selectpfp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

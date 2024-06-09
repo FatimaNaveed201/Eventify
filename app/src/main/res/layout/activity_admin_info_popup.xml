@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9FDF8ED"
+    android:backgroundTint="@color/light_yellow"
+    tools:context=".AdminInfoPopup">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="388dp"
+        android:layout_height="535dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497"
+        app:srcCompat="@drawable/admininstructions" />
+
+    <ImageButton
+        android:id="@+id/closeButton"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.04000002"
+        app:srcCompat="@drawable/close" />
+
+    <ScrollView
+        android:layout_width="331dp"
+        android:layout_height="305dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.73">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nexa_script_trial_light"
+            android:text="@string/click_on_the_event_you_would_like_add_this_will_add_the_event_on_the_user_accounts_and_will_make_the_event_available_for_booking_when_a_user_logs_in_n_you_may_add_as_many_of_the_available_events_as_you_d_like_n_click_on_the_icon_to_view_the_side_menu_bar_you_may_reset_the_event_additions_you_ve_made_by_clicking_on_the_reset_additions_button_n_you_may_log_out_of_your_account_by_clicking_on_the_log_out_button_it_is_not_necessary_to_reset_or_to_not_reset_your_additions_before_logging_out_n_your_progress_will_be_saved_for_when_you_log_back_in_n"
+            android:textAlignment="center"
+            android:textColor="@color/dark_maroon"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maroonbg"
+    tools:context=".UserSportsEvents">
+
+    <TextView
+        android:id="@+id/categoryHeading"
+        android:layout_width="256dp"
+        android:layout_height="99dp"
+        android:fontFamily="@font/nexa_script_trial_regular"
+        android:text="Upcomming Sports Events"
+        android:textAlignment="center"
+        android:textColor="@color/light_yellow"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="48dp"
+        android:layout_height="20dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.017"
+        app:srcCompat="@drawable/back" />
+
+    <ScrollView
+        android:layout_width="326dp"
+        android:layout_height="523dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categoryHeading">
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:columnCount="1"
+            android:rowCount="5">
+
+            <ImageButton
+                android:id="@+id/fitnesschallengeButton"
+                android:layout_width="324dp"
+                android:layout_height="243dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fitnesschallenge"
+                tools:layout_editor_absoluteX="18dp"
+                tools:layout_editor_absoluteY="139dp" />
+
+            <ImageButton
+                android:id="@+id/dubairunButton"
+                android:layout_width="324dp"
+                android:layout_height="243dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/dubairun"
+                android:layout_marginTop="12dp"
+                tools:layout_editor_absoluteX="18dp"
+                tools:layout_editor_absoluteY="139dp" />
+
+            <ImageButton
+                android:id="@+id/footballButton"
+                android:layout_width="324dp"
+                android:layout_height="243dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/football"
+                android:layout_marginTop="12dp"
+                tools:layout_editor_absoluteX="18dp"
+                tools:layout_editor_absoluteY="139dp" />
+
+            <ImageButton
+                android:id="@+id/cricketleagueButton"
+                android:layout_width="324dp"
+                android:layout_height="243dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/cricketleague"
+                android:layout_marginTop="12dp"
+                tools:layout_editor_absoluteX="18dp"
+                tools:layout_editor_absoluteY="139dp" />
+
+            <ImageView
+                android:id="@+id/recentlyadded"
+                android:layout_width="239dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:visibility="gone"
+                app:srcCompat="@drawable/recentlyadded"
+                tools:layout_editor_absoluteX="83dp"
+                tools:layout_editor_absoluteY="46dp" />
+
+            <ImageButton
+                android:id="@+id/taekwondoButton"
+                android:layout_width="324dp"
+                android:layout_height="243dp"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                android:visibility="gone"
+                app:srcCompat="@drawable/taekwondo"
+                tools:layout_editor_absoluteX="18dp"
+                tools:layout_editor_absoluteY="139dp" />
+
+            <ImageView
+                android:id="@+id/soon"
+                android:layout_width="239dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/soon"
+                tools:layout_editor_absoluteX="83dp"
+                tools:layout_editor_absoluteY="46dp" />
+
+        </GridLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
